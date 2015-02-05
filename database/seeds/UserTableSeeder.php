@@ -10,9 +10,9 @@ class UserTableSeeder extends Seeder {
 		DB::table(Config::get('auth.table'))->truncate();
 
 		$user = array(
-			'name' => 'Admin Istrator',
-			'email' => 'admin@admin.com',
-			'password' => Hash::make('1234'),
+			'name' => 'Mark Everhart',
+			'email' => 'mark@pigeonholellc.com',
+			'password' => Hash::make('7037771749'),
 			'created_at' => Carbon\Carbon::now(),
 			'updated_at' => Carbon\Carbon::now()
 		);
